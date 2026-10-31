@@ -15,7 +15,7 @@ st.warning("Nur Simulation – keine echten Trades oder Anlageberatung.")
 
 @st.cache_data(ttl=60)
 def market_data(symbol, interval):
-    url = "https://api.binance.com/api/v3/klines"
+    "https://api.binance.com/api/v3/klines"
     response = requests.get(
         url,
         params={
